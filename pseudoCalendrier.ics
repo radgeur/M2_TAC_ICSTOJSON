@@ -1,0 +1,382 @@
+BEGIN:VEVENT
+DTSTART:20160907T153000Z
+DTEND:20160907T161500Z
+SUMMARY:Évolutions pour le logiciel Smiles2Monomers
+LOCATION:M5 - A1
+DESCRIPTION:L'objectif principal était d'améliorer et recréer des méthodes pour obtenir des meilleurs résultats.\nStage effectué par Congcong Xu à Inria.\nRéférent entreprise : Maude Pupin\nTuteur universitaire : Marius Bilasco
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160906T153000Z
+DTEND:20160906T16150000Z
+SUMMARY:Transcription d'un message vocal avec le moteur Nuance
+LOCATION:M5 - A2
+DESCRIPTION:Ce nouveau service permettra de notifier un utilisateur par mail, sms ou autre moyen lorsqu’il recevra un message sur sa messagerie vocale. Pour ceci,on s'appuiera sur le moteur de reconnaissance vocale Nuance (moteur utilisé par  Apple)..\nStage effectué par François Dubiez à Worldline.\nRéférent entreprise : Julien Derouck.\nTuteur universitaire : Jean-Claude Tarby
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160907T081500Z
+DTEND:20160907T090000Z
+SUMMARY:Du J2EE / Angular JS à Capgemini
+LOCATION:M5 - A1
+DESCRIPTION: L'objectif de la mission est de définir une application permettant aux collaborateurs de Capgemini de partager des informations ou des connaissances.\n
+entreprise : DELBECQUES Guilhem\n Tutrice universitaire : PUPIN Maude
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160907T130000Z
+DTEND:20160907T134500Z
+SUMMARY:Simulation de réseaux de neurones impulsionnels
+LOCATION:M5 - A2
+DESCRIPTION:Ce stage comportait deux objectifs majeurs : le premier était d'améliorer le simulateur de réseaux de neurones impulsionnels développé par l'équipe Émeraude, nommé N2S3, pour le rendre open-source. L'autre objectif était de reproduire plusieurs expériences portant sur ce type de modèles afin de mieux comprendre leurs fonctionnements.\nStage effectué par Pierre Falez dans l'équipe Émeraude.\nRéférent entreprise : Pierre Boulet, Philippe Devienne, Pierre Tirilly\nTuteur universitaire : Bilel Derbel
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160906T143000Z
+DTEND:20160906T151500Z
+SUMMARY:Développement Front-End & Amélioration d'un outil d'une solution d'Analytics/CRM
+LOCATION:M5 - A1
+DESCRIPTION:Développement front-end :\n-Implémentation d'interfaces de gestion, de sites web-mobile et responsive design\n-Préparation d'une migration de Angular 1.x vers Angular 2.x\n\n Participation à l'élaboration d'un nouvel outil pour une solution d'analytics/CRM\n\nDivers développements d'applications en ASP .Net MVC\n\nStage effectué par Benjamin PARANT chez Phoceis.\nRéférent entreprise : Rémi DESPELCHIN\nTuteur universitaire : Jean-Claude TARBY
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:201609069T083000Z
+DTEND:20160909T091500Z
+SUMMARY:Réalisation de l'application Marionnaud France
+LOCATION:M5 - A2
+DESCRIPTION:Suivi de la création d'une application Android, du développement à la livraison. \nStage effectué par Thibault Rosa à Capgemini\nRéférent entreprise : Chloé Delecroix\nTuteur universitaire : Patricia Plénacoste
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160907T100000Z
+DTEND:20160907T104500Z
+SUMMARY:Développement mobile
+LOCATION:M5 - A1
+DESCRIPTION:L'objectif était de maintenir et de développement des application mobile en Android ou iOS.\nStage effectué par Salsabile HAKIMI à Pictime.\nRéférent entreprise : Arnaud Bournouville\nTuteur universitaire : Jean-Claude Tarby
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160907T153000Z
+DTEND:20160907T161500Z
+SUMMARY:De la protection de la vie privée à L'Inria
+LOCATION:M5 - A2
+DESCRIPTION:Proposer une nouvelle approche de dissémination des données mobiles dans le but d'améliorer la protection de la vie privée.\nStage effectué par Romain Sommerard à l'Inria.\nRéférent laboratoire : Romain Rouvoy\nTuteur universitaire : Pierre Allegraud
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160906T170000Z
+DTEND:20160906T174500Z
+SUMMARY:Évolution d'une application monolithique vers une architecture orientée services chez Ouistock
+LOCATION:M5 - A1
+DESCRIPTION:Chez Ouistock, startup spécialisée dans le stockage entre particuliers, j'ai notamment travaillé sur le back-office du site web afin d'y ajouter de nouvelles fonctionnalités, tout en faisant évoluer l'application existante vers une architecture microservices.\nStage effectué par Bernard Thomas chez Ouistock.\nRéférent entreprise : Michiel Missotten\nTuteur universitaire : Lionel Seinturier
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160907T083000Z
+DTEND:20160907T091500Z
+SUMMARY: Expensive multi-objective optimization with decomposition and surrogate models
+LOCATION:M5 - A2
+DESCRIPTION:L'objectif était d'étudier l'impact du l'ajout d'un modèle de substitution au sein de l'algorithme Moea/D et d'en comprendre la dynamique afin de proposer des approches améliorant l'existant.\nStage effectué par Alexandre Verkyndt à Shinshu University.\nRéférent entreprise : Hernan Aguirre\nTuteur universitaire : Bilel Deberl & Arnaud Liefooghe
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160906T081500Z
+DTEND:20160906T090000Z
+SUMMARY:Développement Android et iOS à White Rhino Apps (Portsmouth, UK)
+LOCATION:M5 - A1
+DESCRIPTION:L'objectif principal était de réaliser des applications mobiles destinées au domaine de l’optique.\nStage effectué par Anne-Sophie Saint-Omer à White Rhino Apps.\nRéférent entreprise : Kevin Gill\nTuteur universitaire : Marius Bilasco
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160908T134500Z
+DTEND:20160908T143000Z
+SUMMARY: Algorithme évolutionnaire et robot déformable
+LOCATION:M3 - 226
+DESCRIPTION:Est il possible de faire évoluer des robots en utilisant la thèorie de l'évolution de Darwin?\nStage effectué par Valentin Owczarek.\n INRIA équipe Defrost\nRéférent entreprise : Damien Marchal\nTuteur universitaire : Bilel Derbel
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160907T104500Z
+DTEND:20160907T113000Z
+SUMMARY:Allocation équitable de tâches pour l’analyse de données massives
+LOCATION:M5 - A2
+DESCRIPTION:L'objectif est d'implémenter le design pattern MapReduce à l'aide d'un système multi-agents et de répartir les tâches en cours d'exécution à l'aide négotiations décentralisées et simultanées entre agents.\nStage effectué par Quentin Baert dans l'équipe SMAC - Laboratoir CRIStAL.\nRéférents : Anne-Cécile Caron, Maxime Morge, Jean-Christophe Routier\nTuteur universitaire : Samuel Hym
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160906T104500Z
+DTEND:20160906T113000Z
+SUMMARY:A la conquête d'Amazon
+LOCATION:M5 - A1
+DESCRIPTION:L'objectif était de développer une activité commerciale sur Amazon\nStage effectué par Rémi Godbille à Ponera.\nRéférent entreprise : Sylvain Flipot\nTuteur universitaire : Marius Bilasco
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160908T104500Z
+DTEND:20160908T113000Z
+SUMMARY:Approche sémantique de segmentation et de recherche interactive par le contenu issu d'une caméra de profondeur.
+LOCATION:M3 - 226
+DESCRIPTION:reconnaissance d'objet à partir d'une Kinect V2 dans un environnement intérieur.\nStage effectué par Elliot Vanegue dans l'équipe 3D-SAM.\nRéférent entreprise : Hazem Wannous\nTuteur universitaire : Fabrice Aubert
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20160908T100000Z
+DTEND:20160908T104500Z
+SUMMARY:Automatisation de tâches d'administration système
+LOCATION:M5 - A2
+DESCRIPTION:L'objectif est d'automatiser l'administration système pour que même des développeurs web comprennent.\nStage effectué par Monbailly Jean-Serge à Dernier Cri.\nRéférent entreprise : Robin Komiwes\nTuteur universitaire : Julien Iguchi-Cartigny
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160902T090000Z
+DTEND:20160902T094500Z
+SUMMARY:Traduction automatique via deep learning
+LOCATION:M3 - 226
+DESCRIPTION:L'objectif est de réaliser de la traduction automatique bilingue et d'améliorer les scores de traduction de l'état de l'art. Nous utilisons des réseaux de neurones pour arriver à nos fins.
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T1300Z
+DTEND:20160909T134500Z
+SUMMARY:Cartographie Flux - ESB
+LOCATION:M5 - A2
+DESCRIPTION:L'objectif était de réaliser un outil de cartographie de flux ESB.\nStage effectué par Ouamar Sais à Capgemini.\nRéférent entreprise : Paul Hardelin\nTuteur universitaire : Jean-Christophe Routier
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160908T153000Z
+DTEND:20160908T161500Z
+SUMMARY:Comment prédire la tendance vestimentaire de 2017 au vu des défilés des années précédentes ?
+LOCATION:M3 - 226
+DESCRIPTION:L'objectif était d'étudier les méthodes de traitement et d'analyse d'images dans un but prédictif et de les mettre en pratique sur un projet concret.\nStage effectué par Delphine Poux à CGI France.\nRéférent entreprise : Hamid Hashemi\nTuteur universitaire : Marius Bilasco
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160906T100000Z
+DTEND:20160906T104500Z
+SUMMARY: Conception et développement d’une application permettant l’orchestration et le provisioning d’un ensemble de services online à la demande et à la destination des professionnels dans un cloud privé.
+LOCATION:M5 - A1
+DESCRIPTION: L'objectif était de passer d'une application JAVA vers une solution node.js.\nStage effectué par Sufiane Souissi à Ekino.\nRéférent entreprise : Matthieu Comby\nTuteur universitaire : Lionel Seinturier
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160908T170000Z
+DTEND:20160906T174500Z
+SUMMARY:[HUIS CLOS] Refonte de l’authentification client
+LOCATION:M5 - A2
+DESCRIPTION:Intégration d’un PKI et d’un service d’otp à une infrastructure existante.\nStage effectué par Rémi Pouillard à Inovelan.\nRéférent entreprise : Nicolas Lemaire\nTuteur universitaire : Eric Meunier
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T170000Z
+DTEND:20160909T174500Z
+SUMMARY:Développement Java pour Enedis (anciennement ERDF) 
+LOCATION:M5 - A2
+DESCRIPTION : Réalisation de fonctionnalités et correction d'anomalies en Java et sur l'Oracle Service Bus pour le client Enedis.\nStage effectué par Slimane El ouadi à Capgemini.\nRéférent entreprise : Stéphane Thanasack\nTuteur universitaire : Xavier Le Pallec
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160908T161500Z
+DTEND:20160908T170000Z
+SUMMARY:[HUIS-CLOS] Développement d'un bracelet de captation électrodermale et le software pour l'interpréter
+LOCATION:M5 - A2
+DESCRIPTION:L'objectif était de développer un software permettant de traiter les données électrodermales capturées par nos capteurs afin de dégager des métriques et informations facile à interpréter sur l'état émotionnel de l'utilisateur.\nStage effectué par Ghigny Corentin à NEOTROPE.\nRéférent entreprise : Olivier Janin\nTuteur universitaire : Thomas Pietrzak
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T153000Z
+DTEND:20160909T161500Z
+SUMMARY:Tierce Maintenance applicative sur des projets JEE
+LOCATION:M5 - A2
+DESCRIPTION:L'objectif était de réaliser de la maintenance d'application pour le compte d'un client bancaire (BNPParibas).\nStage effectué par Sofiane YOUSFI à GFI Informatique.\nRéférent entreprise : Vincent VALLEZ\nTuteur universitaire : Lionel SEINTURIER
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160908T143000Z
+DTEND:20160908T151500Z
+SUMMARY:Centralisation de logs avec Graylog
+LOCATION:M5 - A2
+DESCRIPTION:L'objectif était d'implémenter une solution de centralisation de fichiers journaux, tout en respectant les contraintes données.\nStage effectué par Anthony Djenane à Worldline.\nRéférent entreprise : Thomas Langlois\nTuteur universitaire : Gilles Grimaud
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160908T104500Z
+DTEND:20160908T113000Z
+SUMMARY:Développement sur un système de stockage objet massivement distribué
+LOCATION:M5 - A2
+DESCRIPTION:Cette soutenance va présenter ce qu'est l'object storage, présenter les différentes technos utilisées, ainsi que mon travail.\nAu programme, Cryptographie, Système distribués, et autres joies :).\nPas de bonbons malheuresement, désolé :(.\nStage effectué par Julien Blanquart à OpenIO.\nRéférent entreprise : Jean-François Smigielski\nTuteur universitaire : Julien Iguchi-Cartigny
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T161500Z
+DTEND:20160909T170000Z
+SUMMARY:Conception et développement d'une application Web en mode Startup
+LOCATION:M5 - A2
+DESCRIPTION:Retour d'expérience sur la conception et le développement from scratch  et en mode startup,  d'un portail communautaire d'avis sur les prestations de professionnels du service. \nStage effectué par Antoine Philippe à Zenika.\nRéférent entreprise : Gwennaël Buchet\nTuteur universitaire : Xavier Le Pallec
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160907T143000Z
+DTEND:20160907T151500Z
+SUMMARY: Etudes des SGBD dans un référentiel de service
+LOCATION:M5 - A1
+DESCRIPTION:Beaucoup de sites webs contiennent des données plus ou moins hétérogènes et non structurées.\nLes bases NoSQL ( acronyme de « pas seulement SQL » ) changent des SGBD classiques et sont plus adaptées à certains usages en donnant plus de liberté sur les données.\nL’objectif de mon stage était d’apporter plus de flexibilité au module Référentiel développé par l’équipe IT-Toolbox en proposant une v2 de celui-ci tout en utilisant des technologies telles que le JAVA JEE, Angular JS… \nRéférent entreprise : Roussel François \nTuteur Universitaire : Pupin Maude 
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160908T161500Z
+DTEND:20160908T170000Z
+SUMMARY:Tour de virtualisation
+LOCATION:M5 - A2
+DESCRIPTION:Ce stage de recherche a consisté à travailler sur la mise en place d'un système d'exploitation temps réel avec de très fortes propriétés de sécurité liée aux fuites mémoire.
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160906T130000Z
+DTEND:20160906T134500Z
+SUMMARY: Intégration continue en environnement de recherche.
+LOCATION:M5 - A2
+DESCRIPTION: Le but du stage était de mettre en place un système d'intégration continue avec mesure de qualité de code (tests unitaires, couverture de code ...).\nStage effectué par Knapik Christopher au Laboratoire d'Optique Atmosphérique.\nRéférent entreprise : Fabrice Ducos\nTuteur universitaire : Ioan Marius Bilasco
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160908T100000Z
+DTEND:20160908T104500Z
+SUMMARY:Perturbability of Software
+LOCATION:M3 - 226
+DESCRIPTION:Exploration of Perturbability of Software.\nStage effectué par Benjamin DANLGLOT a l'INRIA.\nRéférent entreprise : Martin Monperrus/Philippe Preux\nTuteur universitaire : Xavier Le Pallec
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160906T161500Z
+DTEND:20160906T170000Z
+SUMMARY:Du Magento 2 pour Electro Depot
+LOCATION:M5 - A1
+DESCRIPTION:L'objectif était de passer de Magento 1 à Magento 2 sur Electro Depot.\nStage effectué par Gamba Jordann à Pictime.\nRéférent entreprise : Jean-Philippe Leschaeve\nTuteur universitaire : Lionel Seinturier
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160907T130000Z
+DTEND:20160906T134500Z
+SUMMARY: Application Off line avec AngularJS
+LOCATION:M5 - A1
+DESCRIPTION:L'objectif était de pouvoir utiliser une application web sans connexion internet, grâce à AngularJS et la gestion du cache.\nStage effectué par Aouragh Farid à Open Groupe.\nRéférent entreprise : Nicolas Tondeur\nTuteur universitaire : Loan Marius Bilasco
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160907T161500Z
+DTEND:20160907T017000Z
+SUMMARY:An Automated Approach to Assess and Improve the Energy Consumption of Android Applications
+LOCATION:M5 - A2
+DESCRIPTION:The first objective was to develop an automated approach that allows an Android developer to deploy a most energy-efficient app than the original one (that can be useful to play PokemonGo 
+few more minutes, no?).\nResearch internship at LATECE, Montréal (Canada).\nLaboratory supervisor: Naouel Moha.\nInternship supervisor: Romain Rouvoy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T091500Z
+DTEND:20160909T100000Z
+SUMMARY:Développement J2EE
+LOCATION:M5 - A2
+DESCRIPTION:Répondre de manière agile aux besoins des utilisateurs en développant de nouvelles fonctionnalités dans les outils existants.\nStage effectué par Gissel FERNANDEZ à Open.\nRéférent entreprise : Nicolas TONDEUR \nTuteur universitaire : Patricia Plénacoste
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160908T153000Z
+DTEND:20160908T161500Z
+SUMMARY:Automatisation de la virtualisation à la Televic
+LOCATION:M5 - A2
+DESCRIPTION:Interface web de gestion personnalisée de machines virtuelles.\nStage effectué par Saman Rokni à Televic.\nRéférent entreprise : Reynald Brussard\nTuteur universitaire : Samy Meftali
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T104500Z
+DTEND:20160909T113000Z
+SUMMARY:Estimation du vieillissement basé sur le visage humain
+LOCATION:M5 - A8
+DESCRIPTION:L'objectif était d'augmenter le taux de bonnes classifications d'un produit existant qui permet de classifier une personne comme étant un enfant ou un adulte basé uniquement sur son visage.\nStage effectué par Vermeire Xavier à Anaxa-vida\nRéférent entreprise : Chabane Djeraba
+\nTuteur universitaire : Fabrice Aubert
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160907T091500Z
+DTEND:20160907T100000Z
+SUMMARY:Inverse Reinforcement Learning
+LOCATION:M5 - A2
+DESCRIPTION:Développement de méthodes d'apprentissage par renforcement inverse et applications\nStage effectué par Blaise Pascal à INRIA - team SequeL.\nRéférent entreprise : Bilal Piot\nTuteur universitaire : Xavier Le Pallec
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160906T083000Z
+DTEND:20160906T091500Z
+SUMMARY: Industrialisation d'un prototype d'application mobile
+LOCATION:M5 - A1
+DESCRIPTION:Développement d'une application mobile de paiement pour Decathlon à partir d'un prototype existant.\nStage effectué par Etienne Cuvillon à Nextoo.\nRéférent entreprise : Vianney Apreleff\nTuteur universitaire : Marius Bilasco
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160906T134500Z
+DTEND:20160906T143000Z
+SUMMARY:Développement Symfony2 et API REST
+LOCATION:M5 - A1
+DESCRIPTION:À travers un projet d'envergure, pour la société EQIOM spécialisée dans le béton, j'ai pu participer à l'intégration d'un API REST en Symfony.\nStage effectué par Jonathan Santoni à Ylly.\nRéférent entreprise : Samuel Quéniart\nTuteur universitaire : Xavier Le Pallec
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T103000Z
+DTEND:20160909T111500Z
+SUMMARY: La vie sur Gazpar
+LOCATION:M5 - A2
+DESCRIPTION: Développements dans le cadre du programme Gazpar (GrDF) et du déploiement de compteurs dits intelligents.\nStage effectué par Thibaud Verbaere à CapGemini.\nRéférent entreprise : Julien Maillard\nTuteur universitaire : Patricia Plénacoste
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T100000Z
+DTEND:20160909T104500Z
+SUMMARY:Développement chez un éditeur de logiciel.
+LOCATION:M5 - A2
+DESCRIPTION:Le stage avait pour but de participer au développement de nouvelle fonctionalités de solutions en c# /Angular chez un éditeur de logiciel Ainsi que les le développement de correctifs et le soutient a la partie Intégration. \nStage effectué par Johan Dufaux à Cimail.\nRéférent entreprise : Gonzague Bryckaert\nTuteur universitaire : Patricia Plénacoste
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160906T091500Z
+DTEND:20160906T100000Z
+SUMMARY:Du PHP chez Kbane et du Java chez Swiss Life
+LOCATION:M5 - A1
+DESCRIPTION:L'objectif était de sécuriser une application et de développer des web services.\nStage effectué par Clément Bellart à Nextoo.\nRéférent entreprise : Vianney Apreleff, Cédric Chopin, Gersende Niel\nTuteur universitaire : Jean-Claude Tarby
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T134500Z
+DTEND:20160909T143000Z
+SUMMARY:Realogramme - Cartographie de produits
+LOCATION:M5 - A8
+DESCRIPTION:Stage effectué dans le cadre d'une étude R&D à Worldline. Le but était de retrouver la position des produits dans les magasins. Plus précisément de trouver leurs localisations à l'intérieur des étagères par des techniques de traitement d'images de vision.\nStage effectué par Gaëtan Deflandre à Worldline.\nRéférent entreprise : Charlotte Pasqual\nTuteur universitaire : Ludovic Macaire
+END:VEVEN
+BEGIN:VEVENT
+DTSTART:2016090T091500Z
+DTEND:20160906T100000Z
+SUMMARY:Un outil d'automatisation des tests en SpringBoot et Angular 2.0
+LOCATION:M5 - A1
+DESCRIPTION:L'objectif était de développer un outil permettant la saisie d'exigences et l'automatisation des tests d'acceptance\nStage effectué par Nicolas Noullez à Pictime.\nRéférent entreprise : Ahmadou Diouf\nTuteur universitaire : Jean-Claude Tarby
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T091500Z
+DTEND:20160909T100000Z
+SUMMARY:Face recognition in the cloud
+LOCATION:M5 - A8
+DESCRIPTION:L'objectif était de mettre en place un service cloud de reconnaissance faciale pour une solution de stockage cloud existante sur base d'une solution de reconnaissance faciale existante.\nStage effectué par Scouflaire Emmanuel à Atos Worldline.\nRéférent entreprise : Frédéric Renou\nTuteur universitaire : Marius Bilasco
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T083000Z
+DTEND:20160909T091500Z
+SUMMARY: Réalisation de l'application Marionnaud France
+LOCATION:M5 - A2
+DESCRIPTION:Suivi du développement d'une application Android de la conception à la livraison.\nStage effectué par Thibault Rosa à Capgemini.\nRéférent entreprise : Chloé Delecroix\nTuteur universitaire : Patricia Plénacoste
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160907T134500Z
+DTEND:20160907T143000Z
+SUMMARY:Modélisation et analyse de réseau de réactions avec information cinétique partielle par les modes élémentaires.
+LOCATION:M5 - A2
+DESCRIPTION:L'objectif est d'améliorer les connaissances sur le système de production de la surfactine par la bactérie B. Subtilis en complétant l'analyse faite de la modélisation de son réseau de réactions.\nStage effectué par Emilie Allart au laboratoire CRIStAL - équipe BioComputing.\nRéférent laboratoire : Cristian Versari\nTuteur universitaire : Maude Pupin
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160907T100000Z
+DTEND:20160907T104500Z
+SUMMARY:Gestion de flotte de véhicules autonomes
+LOCATION:M5 - A2
+DESCRIPTION:Stage effectué par Gausin Rémi au Laboratoire Cristal au sein de l'équipe SMAC.\nRéférent entreprise : Antoine Nongaillard\nTuteur universitaire : Xavier Le Pallec
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T143000Z
+DTEND:20160909T151500Z
+SUMMARY:Développement J2EE/AngularJS
+LOCATION:M5 - A2
+DESCRIPTION:Participation à la réalisation d'une application innovante qui consiste à analyser des données très gros volume et à obtenir une restitution ergonomique au travers de dashboard et de parcours drill-down.\nStage effectué par Jean-Baptiste Delaeter à CGI.\nRéférent entreprise : Rémy Delmotte\nTuteur universitaire : Julien Iguchi-Cartigny
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T143000Z
+DTEND:20160909T151500Z
+SUMMARY:Positional et body tracking en réalité virtuelle mobile
+LOCATION:M5 - A8
+DESCRIPTION:Trouver un moyen pour détécter le corps, les mains, les positionner dans l'espace, et ajouter plus d'interaction dans la réalité virtuelle mobile. Différents tests de technologies, comparatifs, démos...\nStage effectué par Léo-Paul Sévin à Homido.\nRéférent entreprise : Mathieu Parmentier\nTuteur universitaire : Laurent Grisoni
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T083000Z
+DTEND:20160909T091500Z
+SUMMARY: Réalisation de l'application Marionnaud France
+LOCATION:M5 - A2
+DESCRIPTION:Suivi du développement d'une application Android de la conception à la livraison.\nStage effectué par Thibault Rosa à Capgemini.\nRéférent entreprise : Chloé Delecroix\nTuteur universitaire : Patricia Plénacoste
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160906T134500Z
+DTEND:20160906T143000Z
+SUMMARY:Generator: de l'invite de commande à l'interface
+LOCATION:M5 - A2
+DESCRIPTION:Il existe au sein de CGI une application nommée Generator ...\nCette application, bien que puissante, possédait un défaut majeur ...\nSon interface d'utilisation était un invite de commandes !\nVenez découvrir le résultat de six mois de stage en AngluarJS et Java JEE, permettant\n aux utilisateurs de Generator un contrôle plus clair, rapide et précis de leur logiciel\n via une interface graphique développée dans une politique d'harmonisation des produits de l'équipe.\nStage effectué par Yassine Badache à CGI.\nRéférent entreprise : Yohan Quertainmont\nTuteur universitaire : Lionel Seinturier
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160909T153000Z
+DTEND:20160909T161500Z
+SUMMARY:Vidéo 360 + R&D
+LOCATION:M5
+DESCRIPTION: Développement d'un lecteur vidéo 360 sous Unity3D et ajout de fonctionnalités dans un outil de visualisation pour la R&D.\nStage effectué par Durigneux Antoine à Giroptic.\nRéférent entreprise : Maxime Chapelet\nTuteur universitaire : Damien Marchal
+END:VEVENT

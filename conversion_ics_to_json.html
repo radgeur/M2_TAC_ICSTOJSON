@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ICS vers JSON</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <!--parce qu'on a mit onload dans le fichier js, on peut le mettre ici-->
+    </head>
+
+    <body>
+        <!---Début du formulaire-->
+        <div class="container">
+            <legend> Convertir un fichier ICS en un tableau JSON</legend>
+            <label for="icsData" class="control­label">Données ICS à convertir</label> <br />
+            <textarea class="form­control" id="icsData" rows="15" cols="90">données ICS ici</textarea>
+            <br />
+            <button id="convertir" class="btn btn­primary">Convertir !</button>
+
+            <br />
+            <br />
+            <label for="jsonData" class="control­label">Résultat JSON</label> <br />
+            <textarea class="form­control" id="jsonData" rows="15" cols="90">données JSON ici</textarea>
+    </body>
+
+    <script src="conversion_prototype.js"></script>
+    <script src="creneau.js"></script>
+    <script>
+        //avec conversion_prototype.js
+        document.getElementById("convertir").addEventListener("click", new Conversion("icsData", "jsonData"));
+
+        //avec conversion.js
+        //document.getElementById("convertir").addEventListener("click", Conversion, false);
+        /*function eservices (nomVariable) {
+            window[nomVariable] = 3;
+            //window["x"] = window.x
+        }*/
+    </script>
+</html>
