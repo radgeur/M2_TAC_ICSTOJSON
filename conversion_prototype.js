@@ -9,6 +9,7 @@ Conversion.prototype.handleEvent = function(event) {
 
 Conversion.prototype.demarrer = function() {
     this.convert = "";
+    this.creneau = new Array();
     this.convertion();
 }
 
@@ -21,30 +22,21 @@ Conversion.prototype.splitAll = function (icsData) {
     var tab1 = icsData.split("BEGIN:VEVENT");
     tab1.shift();
     for (var i=0; i<tab1.length;i++){
-        this.convert += "{";
-        var creneau = new Creneau();
+        //this.convert += "{";
+        var actualCreneau = new Creneau();
         var tab2 = tab1[i].split("\n");
-        this.splitChamps(tab2, creneau);
+        this.splitChamps(tab2, actualCreneau);
     }
-    document.getElementById("jsonData").value = this.convert;
+    this.convert = JSON.stringify(this.creneau);
+    document.getElementById("jsonData").value = this.convert;;
 }
 
 Conversion.prototype.splitChamps = function (tab, creneau) {
     tab.shift();
     for (var j=0;j<tab.length;j++) {
         this.conversionChamp(creneau, tab[j]);
-        /*if(tab[j].indexOf(":")!=-1){
-            var tab3 = tab[j].split(":");
-            this.convert += tab3[0] + " : '" + tab3[1] + "'\n";
-        }*/
     }
-    //mettre dans un tableau de créneau et afficher le tableau avec json.stringify
-    this.convert = JSON.stringify(creneau);
-    /*this.convert += "debut : " + creneau.start;
-    this.convert += "; fin : " + creneau.end;
-    this.convert += "; résumé : " + creneau.summary;
-    this.convert += "; lieu : " + creneau.location;*/
-    this.convert += ";}\n";
+    this.creneau.push(creneau);
 }
 
 Conversion.prototype.conversionChamp = function(creneau, champActuel) {
