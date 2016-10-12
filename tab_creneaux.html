@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creneaux</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="panel panel-default">
+            <div class="panel-heading">Panel Header</div>
+            <div class="panel-body">Panel Content</div>
+            <div class="panel-footer">Panel Footer</div>
+        </div>
+    </body>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    <script src="serveur1.js"></script>
+    <script>
+        var reponse = {};
+        onload = function() {
+            avoirToutLeTableau("tableauZave",function (json) {
+                reponse.tab=json.donnees.tableau;
+                reponse.tab.foreach(function (element, index, array){
+                    
+                });
+            })
+        };
+    </script>
+</html>
