@@ -7,22 +7,37 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <div class="panel panel-default">
-            <div class="panel-heading">Panel Header</div>
-            <div class="panel-body">Panel Content</div>
-            <div class="panel-footer">Panel Footer</div>
-        </div>
     </body>
 
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
     <script src="serveur1.js"></script>
     <script>
+        //afficher chaque soutenance dans un panel distinct
         var reponse = {};
+        var body = document.getElementsByTagName("body")[0];
         onload = function() {
+            //récupération des données des soutenances
             avoirToutLeTableau("tableauZave",function (json) {
                 reponse.tab=json.donnees.tableau;
-                reponse.tab.foreach(function (element, index, array){
-                    
+                reponse.tab.forEach(function (element, index, array){
+                    //création des différents élements du panel et ajout du texte à l'intérieur
+                    var panel = document.createElement("Div");
+                    body.appendChild(panel);
+                    panel.className = "col-md-3 panel panel-default";
+                    var panel_header = document.createElement("P");
+                    panel_header.className = "panel-heading";
+                    var panel_body = document.createElement("P");
+                    panel_body.className = "panel-body";
+                    var panel_footer = document.createElement("P");
+                    panel_footer.className = "panel-footer";
+                    panel.appendChild(panel_header);
+                    panel.appendChild(panel_body);
+                    panel.appendChild(panel_footer);
+                    panel_header.appendChild(document.createTextNode(element.debut));
+                    panel_header.appendChild(document.createElement("br"));
+                    panel_header.appendChild(document.createTextNode(element.fin));
+                    panel_body.appendChild(document.createTextNode(element.resume));
+                    panel_footer.appendChild(document.createTextNode(element.lieu));
                 });
             })
         };
