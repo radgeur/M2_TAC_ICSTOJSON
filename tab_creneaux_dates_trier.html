@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creneaux</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="Tue" class="col-md-3">
+            <h2>Mardi 08</h2>
+        </div>
+        <div id="Wed" class="col-md-3">
+            <h2>Mercredi 09</h2>
+        </div>
+        <div id="Thu" class="col-md-3">
+            <h2>Jeudi 10</h2>
+        </div>
+        <div id="Fri" class="col-md-3">
+            <h2>Vendredi 11</h2>
+        </div>
+    </body>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    <script src="serveur1.js"></script>
+    <script src="tab_creneaux_class.js"></script>
+    <!--<script>
+        //afficher chaque soutenance dans un panel distinct
+        var reponse = {};
+        var body = document.getElementsByTagName("body")[0];
+        var splitDateDebut = new Array();
+        var splitDateFin = new Array();
+        var tueTab = new Array();
+        var wedTab = new Array();
+        var thuTab = new Array();
+        var friTab = new Array();
+        onload = function() {
+            //fonction de comparaison qui permet de trier les dates dans un tableau
+            function trierDatesTab(a, b) {
+               var dateDebutA = new Date(a.debut);
+               var dateDebutB = new Date(b.debut);
+               if (dateDebutA > dateDebutB)
+                 return 1;
+               if (dateDebutA < dateDebutB)
+                 return -1;
+               return 0;
+            };
+
+            function createPanelForSoutenance(day, element){
+                splitDateDebut = element.debut.split(" ");
+                splitDateFin = element.fin.split(" ");
+                var panel = document.createElement("Div");
+                day.appendChild(panel);
+                panel.className = "panel panel-default";
+                var panel_header = document.createElement("P");
+                panel_header.className = "panel-heading";
+                var panel_body = document.createElement("P");
+                panel_body.className = "panel-body";
+                var panel_footer = document.createElement("P");
+                panel_footer.className = "panel-footer";
+                panel.appendChild(panel_header);
+                panel.appendChild(panel_body);
+                panel.appendChild(panel_footer);
+                panel_header.appendChild(document.createTextNode(splitDateDebut[4].substring(0,5)));
+                panel_header.appendChild(document.createElement("br"));
+                panel_header.appendChild(document.createTextNode(splitDateFin[4].substring(0,5)));
+                panel_body.appendChild(document.createTextNode(element.resume));
+                panel_footer.appendChild(document.createTextNode(element.lieu));
+            }
+
+            //récupération des données des soutenances
+            avoirToutLeTableau("tableauZave",function (json) {
+                reponse.tab=json.donnees.tableau;
+                reponse.tab.forEach(function (element, index, array){
+                    splitDateDebut = element.debut.split(" ");
+
+                    if(splitDateDebut[0] == "Tue")
+                        tueTab.push(element);
+                    else if(splitDateDebut[0] == "Wed")
+                        wedTab.push(element);
+                    else if(splitDateDebut[0] == "Thu")
+                        thuTab.push(element);
+                    else if(splitDateDebut[0] == "Fri")
+                        friTab.push(element);
+                });
+
+                //trier les tableaux
+                tueTab.sort(trierDatesTab);
+                wedTab.sort(trierDatesTab);
+                thuTab.sort(trierDatesTab);
+                friTab.sort(trierDatesTab);
+
+                var day = document.getElementById("Tue");
+                tueTab.forEach(function (element, index, array) {
+                    createPanelForSoutenance(day, element);
+                });
+                var day = document.getElementById("Wed");
+                wedTab.forEach(function (element, index, array) {
+                    createPanelForSoutenance(day, element);
+                });
+                var day = document.getElementById("Thu");
+                thuTab.forEach(function (element, index, array) {
+                    createPanelForSoutenance(day, element);
+                });
+                var day = document.getElementById("Fri");
+                friTab.forEach(function (element, index, array) {
+                    createPanelForSoutenance(day, element);
+                });
+            })
+        };
+    </script>-->
+</html>

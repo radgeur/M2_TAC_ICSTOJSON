@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creneaux</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="Tue" class="col-md-3">
+            <h2>Mardi 08</h2>
+        </div>
+        <div id="Wed" class="col-md-3">
+            <h2>Mercredi 09</h2>
+        </div>
+        <div id="Thu" class="col-md-3">
+            <h2>Jeudi 10</h2>
+        </div>
+        <div id="Fri" class="col-md-3">
+            <h2>Vendredi 11</h2>
+        </div>
+    </body>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    <script src="serveur1.js"></script>
+    <script>
+        //afficher chaque soutenance dans un panel distinct
+        var reponse = {};
+        var body = document.getElementsByTagName("body")[0];
+        var splitDateDebut = new Array();
+        var splitDateFin = new Array();
+        onload = function() {
+            //récupération des données des soutenances
+            avoirToutLeTableau("tableauZave",function (json) {
+                reponse.tab=json.donnees.tableau;
+                reponse.tab.forEach(function (element, index, array){
+                    var day = null;
+                    splitDateDebut = element.debut.split(" ");
+                    splitDateFin = element.fin.split(" ");
+                    console.log(splitDateDebut[0]);
+
+                    if(splitDateDebut[0] == "Tue")
+                        day = document.getElementById("Tue");
+                    else if(splitDateDebut[0] == "Wed")
+                        day = document.getElementById("Wed");
+                    else if(splitDateDebut[0] == "Thu")
+                        day = document.getElementById("Thu");
+                    else if(splitDateDebut[0] == "Fri")
+                        day = document.getElementById("Fri");
+                    console.log(day);
+                    if(day != null){
+                        var panel = document.createElement("Div");
+                        day.appendChild(panel);
+                        panel.className = "panel panel-default";
+                        var panel_header = document.createElement("P");
+                        panel_header.className = "panel-heading";
+                        var panel_body = document.createElement("P");
+                        panel_body.className = "panel-body";
+                        var panel_footer = document.createElement("P");
+                        panel_footer.className = "panel-footer";
+                        panel.appendChild(panel_header);
+                        panel.appendChild(panel_body);
+                        panel.appendChild(panel_footer);
+                        panel_header.appendChild(document.createTextNode(splitDateDebut[4].substring(0,5)));
+                        panel_header.appendChild(document.createElement("br"));
+                        panel_header.appendChild(document.createTextNode(splitDateFin[4].substring(0,5)));
+                        panel_body.appendChild(document.createTextNode(element.resume));
+                        panel_footer.appendChild(document.createTextNode(element.lieu));
+                    }
+                });
+            })
+        };
+    </script>
+</html>
